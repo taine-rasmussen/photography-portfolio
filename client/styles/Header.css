@@ -3,11 +3,22 @@
   justify-content: space-between;
 }
 
+.header-title-container h1 {
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
 .header-item-container {
   display: flex;
   flex-direction: row;
 }
 
-.header-item-container h2 {
-  margin: 2rem 1rem;
+.header-item-container li {
+  display: inline;
+  margin-right: 1.5rem;
+  font-size: 1.7rem;
+}
+
+.header-item-container ul {
+  margin-top: 3rem;
 }
