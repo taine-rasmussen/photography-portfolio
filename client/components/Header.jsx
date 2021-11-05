@@ -10,9 +10,9 @@ const Header = () => {
             <h1>Taine Rasmussen</h1>
          </div>
          <div className='header-item-container'>
-            <h2 className='header-item'>Home</h2>
-            <h2 className='header-item'>Portairt</h2>
-            <h2 className='header-item'>Street</h2>
+            <h2>Home</h2>
+            <h2>Portairt</h2>
+            <h2>Street</h2>
          </div>
       </div>
    )
