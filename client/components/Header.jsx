@@ -1,4 +1,5 @@
 import React from 'react'
+import '../styles/Header.css'
 
 const Header = () => {
 
@@ -9,9 +10,9 @@ const Header = () => {
             <h1>Taine Rasmussen</h1>
          </div>
          <div className='header-item-container'>
-            <div className='header-item'>Home</div>
-            <div className='header-item'>Portairt</div>
-            <div className='header-item'>Street</div>
+            <h2 className='header-item'>Home</h2>
+            <h2 className='header-item'>Portairt</h2>
+            <h2 className='header-item'>Street</h2>
          </div>
       </div>
    )
