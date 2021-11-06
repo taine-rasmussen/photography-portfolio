@@ -1,7 +1,7 @@
 import React from 'react'
 import '../styles/Header.css'
 
-const Header = () => {
+const Header = ({view, setView}) => {
 
    return(
       <div className='header-container'>
@@ -11,8 +11,8 @@ const Header = () => {
          <div className='header-item-container'>
             <ul>
                <li>Home</li>
-               <li>Portrait</li>
-               <li>Street</li>
+               <li onClick={() => setView(true)}>Portrait</li>
+               <li onClick={() => setView(false)}>Street</li>
             </ul>
          </div>
       </div>
