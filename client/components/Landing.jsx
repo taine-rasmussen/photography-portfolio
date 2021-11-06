@@ -1,10 +1,22 @@
 import React from 'react'
-import { Parallax, Background } from 'react-parallax';
+import { Link } from 'react-router-dom'
+import '../styles/Landing.css'
 
 const Landing = () => {
+
    return (
       <div className="landing-container">
-        <h1>Taine Rasmussen</h1>
+         <div className="landing-header-container">
+            <h1>Taine Rasmussen</h1>
+         </div>
+         <div className="landing-links-container">
+               <Link to='street'>
+                  <h2>Street</h2>
+               </Link>
+               <Link to='portrait'>
+                  <h2>Portrait</h2>
+               </Link>
+         </div>
       </div>
    )
 }
