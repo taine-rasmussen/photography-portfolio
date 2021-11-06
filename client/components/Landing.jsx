@@ -1,9 +1,10 @@
 import React from 'react'
+import { Parallax, Background } from 'react-parallax';
 
-export const Landing = () => {
+const Landing = () => {
    return (
-      <div>
-         Welcome to my landing page
+      <div className="landing-container">
+        <h1>Taine Rasmussen</h1>
       </div>
    )
 }
