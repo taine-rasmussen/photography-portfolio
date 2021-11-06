@@ -10,14 +10,12 @@ const Landing = () => {
             <h1>Taine Rasmussen</h1>
          </div>
          <div className="landing-links-container">
-            <ul>
                <Link to='street'>
-                  <li>Street</li>
+                  <h2>Street</h2>
                </Link>
                <Link to='portrait'>
-                  <li>Portrait</li>
+                  <h2>Portrait</h2>
                </Link>
-            </ul>
          </div>
       </div>
    )

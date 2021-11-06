@@ -1,0 +1,14 @@
+.landing-container {
+  height: 100vh;
+}
+
+.landing-header-container h1 {
+  font-size: 2.5rem;
+}
+.landing-links-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 12rem;
+}
