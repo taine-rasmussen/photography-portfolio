@@ -2,6 +2,9 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import '../styles/Landing.css'
 
+// components
+import LandingBg from './LandingBg'
+
 const Landing = () => {
 
    return (
@@ -17,6 +20,7 @@ const Landing = () => {
                   <h2>Portrait</h2>
                </Link>
          </div>
+      <LandingBg />
       </div>
    )
 }
