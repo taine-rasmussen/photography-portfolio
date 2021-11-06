@@ -5,35 +5,33 @@ import ParallaxMousemove from 'react-parallax-mousemove'
 const LandingBg = () => {
 
    const style = {
-      outter: {
+      container: {
         position: 'relative',
-        overflow: 'hidden'
       },
-      bgLayerStyle: {
+      image: {
         position: 'absolute',
         height: '100%',
-        transform: 'translate(-15%, 17%)',
       }
    }
 
 
 
    return (
-      <div>  
-      <ParallaxMousemove containerStyle={style.outter} fullHeight={true}>
-         <ParallaxMousemove.Layer layerStyle={style.bgLayerStyle}
+      <div className='landing-bg-container'>  
+      <ParallaxMousemove containerStyle={style.container} fullHeight={true}>
+         <ParallaxMousemove.Layer layerStyle={style.image}
             config={{
-              xFactor: 0.3,
+              xFactor: 1,
               yFactor: 0.3,
               springSettings: {
                 stiffness: 50,
-                damping: 30
+                damping: 10
               }
          }}>
             <img src="/Images/profile.jpeg" alt="?"/>
          </ParallaxMousemove.Layer>
 
-          <ParallaxMousemove.Layer layerStyle={style.bgLayerStyle}
+          <ParallaxMousemove.Layer layerStyle={style.image}
             config={{
               xFactor: 0.3,
               yFactor: 0.3,
@@ -45,7 +43,7 @@ const LandingBg = () => {
             <img src="/Images/profile.jpeg" alt="?"/>
          </ParallaxMousemove.Layer>
          
-         <ParallaxMousemove.Layer layerStyle={style.bgLayerStyle}
+         <ParallaxMousemove.Layer layerStyle={style.image}
             config={{
               xFactor: 0.3,
               yFactor: 0.3,
