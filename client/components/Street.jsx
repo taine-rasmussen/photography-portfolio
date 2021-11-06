@@ -3,7 +3,7 @@ import React from 'react'
 // components
 import Header from './header'
 
-export const Street = () => {
+const Street = () => {
    return (
       <div>
          <Header />

@@ -4,7 +4,7 @@ import React from 'react'
 // Components
 import Header from './header'
 
-export const Portrait = () => {
+const Portrait = () => {
    return (
       <div>
          <Header />
