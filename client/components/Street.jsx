@@ -1,9 +1,13 @@
 import React from 'react'
 
+// components
+import Header from './header'
+
 export const Street = () => {
    return (
       <div>
-         Street
+         <Header />
+         Street component
       </div>
    )
 }

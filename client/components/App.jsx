@@ -1,9 +1,10 @@
 import React, { useState } from 'react'
+import { Route } from 'react-router-dom'
 
 // Components
-import Header from './Header'
 import Street from './Street'
 import Portrait from './Portrait'
+import Landing from './Landing'
 
 
 const App = () => {
@@ -13,8 +14,9 @@ const App = () => {
   return (
     <>
       <div className='app'>
-        <Header view={view} setView={setView}/>
-        {view ? <Portrait /> : <Street />}
+         <Route exact path='/' component={Landing}/> 
+         <Route exact path='/street' component={Street}/> 
+         <Route exact path='/Portrait' component={Portrait}/> 
       </div>
     </>
   )
