@@ -1,7 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 // Components
 import Header from './Header'
+import Street from './Street'
+import Portrait from './Portrait'
 
 
 const App = () => {
@@ -10,6 +12,8 @@ const App = () => {
     <>
       <div className='app'>
         <Header />
+        <Street />
+        <Portrait />
       </div>
     </>
   )
