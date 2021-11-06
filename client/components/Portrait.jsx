@@ -1,9 +1,14 @@
 import React from 'react'
 
+
+// Components
+import Header from './header'
+
 export const Portrait = () => {
    return (
       <div>
-         Portrait
+         <Header />
+         Portrait component
       </div>
    )
 }

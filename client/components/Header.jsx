@@ -1,7 +1,7 @@
 import React from 'react'
 import '../styles/Header.css'
 
-const Header = ({view, setView}) => {
+const Header = ({setView}) => {
 
    return(
       <div className='header-container'>
