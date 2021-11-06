@@ -20,11 +20,3 @@ const Header = () => {
 }
 
 export default Header
-
-// Paralax scrolling???
-
-// Portfolio idea:
-   // Project section: 
-      // More contained styling 
-      // Use Parallax scrolling
-      // Card positions alternate from each side of the screen
