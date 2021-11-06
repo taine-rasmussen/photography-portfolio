@@ -1,0 +1,4 @@
+.landing-bg-container {
+  display: flex;
+  flex-direction: row;
+}
