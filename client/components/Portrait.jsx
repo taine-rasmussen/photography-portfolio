@@ -2,6 +2,8 @@ import React from 'react'
 import '../styles/Portrait.css'
 
 // Components
+import Header from './Header'
+
 
 const Portrait = () => {
 
@@ -10,6 +12,7 @@ const Portrait = () => {
 
    return (
       <>
+         <Header />
             <div className="portrait-container">
                {portraitImages.map((img, index) => {
                   return(
