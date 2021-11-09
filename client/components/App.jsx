@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Route } from 'react-router-dom'
 
 // Components
@@ -9,14 +9,12 @@ import Landing from './Landing'
 
 const App = () => {
 
-  const [view, setView] = useState(false)
-
   return (
     <>
       <div className='app'>
          <Route exact path='/' component={Landing}/> 
          <Route exact path='/street' component={Street}/> 
-         <Route exact path='/Portrait' component={Portrait}/> 
+         <Route exact path='/portrait' component={Portrait}/> 
       </div>
     </>
   )
