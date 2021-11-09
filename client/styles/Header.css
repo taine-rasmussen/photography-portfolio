@@ -2,7 +2,6 @@
   display: flex;
   justify-content: space-between;
   height: 8rem;
-  border: 1px solid #000;
 }
 
 .header-title-container h1 {
