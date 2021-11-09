@@ -1,0 +1,14 @@
+.portrait-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 2rem;
+}
+
+.portrait-img-container {
+  margin: 0rem 2rem;
+}
+
+.portrait-img-container img {
+  height: 300px;
+}

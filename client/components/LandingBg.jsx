@@ -1,5 +1,5 @@
 import React from 'react'
-import ParallaxMousemove from 'react-parallax-mousemove'
+
 
 
 const LandingBg = () => {
