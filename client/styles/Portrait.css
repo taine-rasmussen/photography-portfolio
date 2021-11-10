@@ -3,12 +3,13 @@
   flex-wrap: wrap;
   flex-direction: row;
   margin-top: 2rem;
+  width: 95vw;
+}
+
+.portrait-container img {
+  height: 225px;
 }
 
 .portrait-img-container {
-  margin: 0rem 2rem;
-}
-
-.portrait-img-container img {
-  height: 300px;
+  margin-right: 1rem;
 }
