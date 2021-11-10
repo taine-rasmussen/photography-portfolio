@@ -13,3 +13,18 @@
 .portrait-img-container {
   margin-right: 1rem;
 }
+
+.large-square-portrait {
+  height: 450px !important;
+  width: 400px;
+}
+
+.large-portrait {
+  height: 450px !important;
+  width: 300px;
+}
+
+.landscape-portrait {
+  height: 450px !important;
+  width: 650px;
+}
