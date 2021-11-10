@@ -3,15 +3,18 @@
   flex-wrap: wrap;
   flex-direction: row;
   margin-top: 2rem;
-  width: 95vw;
+  width: 100%;
+  border-top: 2px solid #000;
+  padding-top: 10px;
+  justify-content: space-between;
 }
 
 .portrait-container img {
   height: 225px;
+  border: 1px solid #000;
 }
 
 .portrait-img-container {
-  margin-right: 1rem;
 }
 
 .large-square-portrait {
