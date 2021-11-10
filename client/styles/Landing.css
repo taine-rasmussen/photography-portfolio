@@ -8,8 +8,8 @@
   margin: 1rem;
 }
 
-.landing-header-container {
-  z-index: -1;
+.landing-header-container h1 {
+  font-size: 2.5rem;
 }
 
 .landing-links-container {
