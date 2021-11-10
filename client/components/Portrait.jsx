@@ -7,20 +7,68 @@ import Header from './Header'
 
 const Portrait = () => {
 
-   const image = <img src="/Images/profile.jpeg" alt="example"/>
-   const portraitImages = [image, image, image, image, image, image, image, image];
 
    return (
       <>
          <Header />
             <div className="portrait-container">
-               {portraitImages.map((img, index) => {
-                  return(
-                     <div className="portrait-img-container" key={index}>
-                        {img}
-                     </div>
-                  )
-               })}
+              <div className="portrait-img-container ">
+                 <img src='Images/portrait/portrait.jpg' alt='portrait of woman'/>
+              </div>
+              <div className="portrait-img-container ">
+                 <img src='Images/portrait/portrait2.jpg' alt='portrait of woman'/>
+              </div>
+              <div className="portrait-img-container ">
+                 <img src='Images/portrait/portrait3.jpg' alt='portrait of woman'/>
+              </div>
+              <div className="portrait-img-container ">
+                 <img src='Images/portrait/portrait4.jpg' alt='portrait of woman'/>
+              </div>
+              <div className="portrait-img-container ">
+                 <img src='Images/portrait/portrait5.jpg' alt='portrait of woman'/>
+              </div>
+              <div className="portrait-img-container ">
+                 <img src='Images/portrait/portrait6.jpg' alt='portrait of woman'/>
+              </div>
+              <div className="portrait-img-container ">
+                 <img src='Images/portrait/portrait7.jpg' alt='portrait of woman'/>
+              </div>
+              <div className="portrait-img-container ">
+                 <img src='Images/portrait/portrait8.jpg' alt='portrait of woman'/>
+              </div>
+              <div className="portrait-img-container ">
+                 <img src='Images/portrait/portrait9.jpg' alt='portrait of woman'/>
+              </div>
+              <div className="portrait-img-container ">
+                 <img src='Images/portrait/portrait10.jpg' alt='portrait of woman'/>
+              </div>
+              <div className="portrait-img-container ">
+                 <img src='Images/portrait/portrait11.jpg' alt='portrait of woman'/>
+              </div>
+              <div className="portrait-img-container ">
+                 <img src='Images/portrait/portrait12.jpg' alt='portrait of woman'/>
+              </div>
+              <div className="portrait-img-container ">
+                 <img src='Images/portrait/portrait13.jpg' alt='portrait of woman'/>
+              </div>
+              <div className="portrait-img-container ">
+                 <img src='Images/portrait/portrait14.jpg' alt='portrait of woman'/>
+              </div>
+              <div className="portrait-img-container ">
+                 <img src='Images/portrait/portrait15.jpg' alt='portrait of woman'/>
+              </div>
+              <div className="portrait-img-container ">
+                 <img src='Images/portrait/portrait16.jpg' alt='portrait of woman'/>
+              </div>
+              <div className="portrait-img-container ">
+                 <img src='Images/portrait/portrait17.jpg' alt='portrait of woman'/>
+              </div>
+              <div className="portrait-img-container ">
+                 <img src='Images/portrait/portrait18.jpg' alt='portrait of woman'/>
+              </div>
+              <div className="portrait-img-container ">
+                 <img src='Images/portrait/portrait19.jpg' alt='portrait of woman'/>
+              </div>
            </div>
       </>
    )
