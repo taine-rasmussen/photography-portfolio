@@ -22,10 +22,10 @@ const Portrait = () => {
                  <img src='Images/portrait/portrait2.jpg' alt='portrait of woman' className='large-portrait'/>
               </div>
               <div className="portrait-img-container ">
-                 <img src='Images/portrait/portrait3.jpg' alt='portrait of woman' className='large-square-portrait'/>
+                 <img src='Images/portrait/portrait4.jpg' alt='portrait of woman' className='large-portrait'/>
               </div>
               <div className="portrait-img-container ">
-                 <img src='Images/portrait/portrait4.jpg' alt='portrait of woman' className='large-portrait'/>
+                 <img src='Images/portrait/portrait.jpg' alt='portrait of woman' className='landscape-portrait'/>
               </div>
               <div className="portrait-img-container ">
                  <img src='Images/portrait/portrait5.jpg' alt='portrait of woman' className='large-portrait'/>
@@ -55,7 +55,7 @@ const Portrait = () => {
                  <img src='Images/portrait/portrait15.jpg' alt='portrait of woman' className='large-square-portrait'/>
               </div>
               <div className="portrait-img-container ">
-                 <img src='Images/portrait/portrait.jpg' alt='portrait of woman' className='landscape-portrait'/>
+                 <img src='Images/portrait/portrait3.jpg' alt='portrait of woman' className='large-portrait'/>
               </div>
               <div className="portrait-img-container ">
                  <img src='Images/portrait/portrait16.jpg' alt='portrait of woman' className='large-square-portrait'/>
