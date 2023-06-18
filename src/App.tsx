@@ -1,10 +1,12 @@
+import { FC } from 'react';
 import './App.css'
+import Nav from './Nav'
 
-const  App = () => {
+const  App: FC = () => {
 
   return (
     <>
-    working
+      <Nav />
     </>
   )
 }
