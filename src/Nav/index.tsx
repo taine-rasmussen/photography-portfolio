@@ -6,8 +6,8 @@ const index = () => {
       sx={{
         border: '2px solid black',
         flexDirection: 'row',
-        height: '100px',
         display: 'flex',
+        height: '100px',
         width: '100%',
       }}
     >
