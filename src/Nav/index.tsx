@@ -1,7 +1,6 @@
-import { Box, Type} from '@mui/material/Box';
-import { FC } from 'react';
+import { Box } from '@mui/material';
 
-const index: FC = () => {
+const index = () => {
   return (
     <Box
       sx={{

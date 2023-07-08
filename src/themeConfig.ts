@@ -1,32 +1,23 @@
-export const themeConfig = {
-    palette: {
-          dark: '#000',
-          light: '#fff'
-        },
-        typography: {
-          fontSize: 12,
-          h1: {
-            fontSize: 40,
-            fontWeight: 600
-          },
-          h2: {
-            fontSize: 32,
-            fontWeight: 600
-          },
-          h3: {
-            fontSize: 24,
-          },
-          h4: {
-            fontSize: 20,
-            fontWeight: 600
-          },
-          h5: {
-            fontSize: 16,
-            fontWeight: 600
-          },
-          h6: {
-            fontSize: 14,
-            fontWeight: 600
-      },
-    },
-  };
+import { createTheme } from '@mui/material/styles';
+
+import { PaletteOptions } from '@mui/material/styles/createPalette';
+import { TypographyOptions } from '@mui/material/styles/createTypography';
+import { ThemeOptions } from '@mui/material/styles/createTheme';
+
+const palette: PaletteOptions = {
+  primary: {
+    main: '#000000',
+  },
+};
+
+const typography: TypographyOptions = {
+};
+
+const themeOptions: ThemeOptions = {
+  palette,
+  typography,
+};
+
+const themeConfig = createTheme(themeOptions);
+
+export default themeConfig;

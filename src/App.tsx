@@ -1,22 +1,18 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { CssBaseline, ThemeProvider } from "@mui/material";
-import { createTheme } from '@mui/material/styles';
-import { themeConfig } from './themeConfig';
+import themeConfig from './themeConfig';
 import Overview from './Overview';
 import Contact from './Contact';
-import { FC } from 'react';
 import Work from './Work';
 import './App.css'
 
 
-const  App: FC = () => {
-
-  const theme = createTheme(themeConfig)
+const  App = () => {
 
   return (
     <div className='app'>
       <BrowserRouter>
-      <ThemeProvider theme={theme}>
+      <ThemeProvider theme={themeConfig}>
         <CssBaseline />
          <Routes>
             <Route path='/' element={<Overview />} />
