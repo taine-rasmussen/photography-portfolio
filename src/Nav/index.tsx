@@ -3,7 +3,7 @@ import { Box, Typography } from '@mui/material'
 
 const index = () => {
   return (
-    <RowBox>
+    <RowBox spaceBetween>
       <Box>
         <Typography
           variant='h1'
