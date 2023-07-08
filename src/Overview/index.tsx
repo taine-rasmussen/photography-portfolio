@@ -1,11 +1,9 @@
-import { FC } from 'react'
 import Nav from '../Nav'
 
-const index: FC = () => {
+const index= () => {
   return (
     <div>
       <Nav />
-      overview
     </div>
   )
 }

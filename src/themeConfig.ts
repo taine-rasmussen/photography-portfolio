@@ -17,12 +17,12 @@ const typography: TypographyOptions = {
   fontFamily: 'Playfair Display"',
     fontSize: 16,
     h1: {
-      fontSize: '3rem',
+      fontSize: '2rem',
       lineHeight: 1.2,
       letterSpacing: '-0.02em',
     },
     h2: {
-      fontSize: '2.25rem',
+      fontSize: '1.25rem',
       fontWeight: 'bold',
       lineHeight: 1.2,
       letterSpacing: '-0.02em',
